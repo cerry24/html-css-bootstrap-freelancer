@@ -40,6 +40,15 @@ header {
     background-color: brown;
 }
 
+#about {
+    background-color: #1abc9c;
+}
 
+.ms_text {
+    height: 150px;
+    background-color: deeppink;
+}
 
-
+.ms_button {
+    background-color: darkmagenta;
+}
