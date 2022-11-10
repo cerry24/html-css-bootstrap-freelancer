@@ -18,14 +18,17 @@ header {
 
 .ms_img {
     height: 200px;
+    background-color: beige;
 }
 
 .ms_section-title {
     height: 60px;
+    background-color: coral;
 }
 
 .ms_list {
     height: 90px;
+    background-color: burlywood;
 }
 
 #portfolio {
