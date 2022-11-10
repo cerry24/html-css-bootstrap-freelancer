@@ -6,9 +6,26 @@ header {
     border: 2px black dashed;
 }
 
-h1,
+.ms_page-title,
 .ms_main-nav {
     height: 60px;
     background-color: blueviolet;
 }
+
+#ms_jumbotron {
+    background-color: #1abc9c;
+}
+
+.ms_img {
+    height: 100px;
+}
+
+.ms_section-title {
+    height: 60px;
+}
+
+.ms_list {
+    height: 75px;
+}
+
 
