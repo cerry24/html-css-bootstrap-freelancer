@@ -1,15 +1,13 @@
-header {
-    background-color: #2c3e50;
-}
-
 .ms_structure-border {
     border: 2px black dashed;
 }
 
-.ms_page-title,
-.ms_main-nav {
-    height: 60px;
-    background-color: blueviolet;
+header {
+    background-color: #2c3e50;
+}
+
+.ms_color-white {
+    color: white;
 }
 
 #ms_jumbotron,

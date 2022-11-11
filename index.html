@@ -11,20 +11,32 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <header class="py-3">
-            <div class="container-md">
-                <div class="row justify-content-between">
+        <header>
+            <nav class="navbar navbar-expand-md"> <!--main nav-->
+                <div class="container-md">
 
-                    <div class="col-5 col-md-4 col-xl-3"> <!--title-->
-                        <h1 class="ms_page-title ms_structure-border">main title</h1>
-                    </div>
+                    <a class="navbar-brand text-white text-uppercase fw-bolder fs-4" href="#">start bootstrap</a>
 
-                    <div class="col-1 col-md-4 col-xl-3"> <!--main menu-->
-                        <nav class="ms_main-nav ms_structure-border">menu</nav>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-uppercase fw-bold fs-4" href="#">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-uppercase fw-bold fs-4" href="#">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-uppercase fw-bold fs-4" href="#">contact</a>
+                            </li>
+                        </ul>
                     </div>
 
                 </div>
-            </div>
+            </nav>
         </header>
 
         <main>
