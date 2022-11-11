@@ -12,6 +12,10 @@
     background-color: white;
 }
 
+.ms_sep-dark {
+    background-color: #2c3e50;
+}
+
 header {
     background-color: #2c3e50;
 }
@@ -26,13 +30,7 @@ header {
 }
 
 .ms_section-title {
-    height: 60px;
-    background-color: coral;
-}
-
-.ms_list {
-    height: 90px;
-    background-color: burlywood;
+    color: #2c3e50;
 }
 
 #portfolio,
@@ -41,17 +39,16 @@ header {
 }
 
 .ms_card {
-    height: 100px;
     background-color: brown;
 }
 
 .ms_text {
-    height: 150px;
     background-color: deeppink;
 }
 
 .ms_button {
-    background-color: darkmagenta;
+    background-color: #1abc9c;
+    border: 1px white solid;
 }
 
 .ms_form {
