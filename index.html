@@ -160,12 +160,34 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-12"> <!--titolo sezione-->
-                            <h2 class="ms_section-title ms_structure-border text-center">section title</h2>
+                        <div class="col-12"> <!--title-->
+                            <h2 class="ms_section-title text-center text-uppercase fw-bold fs-2">portfolio</h2>
+                        </div>
+
+                        <div class="col-12"> <!--separator-->
+                            <div class="ms_separator ms_sep-dark m-auto mb-3"></div>
                         </div>
 
                         <div class="col-12"> <!--form-->
-                            <div class="ms_form ms_structure-border">form</div>
+                            <form>
+                                <div class="mb-3">
+                                    <div class="mb-3">
+                                        <label for="input-name" class="form-label ms_color-dark fs-4">Name</label>
+                                        <input type="text" class="form-control" id="input-name">
+                                    </div>
+                                    <label for="Iinput-email" class="form-label ms_color-dark fs-4">Email address</label>
+                                    <input type="email" class="form-control" id="input-email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="input-phone-number" class="form-label ms_color-dark fs-4">Phone Number</label>
+                                    <input type="text" class="form-control" id="input-phone-number">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="input-text-area" class="form-label ms_color-dark fs-4">Message</label>
+                                    <textarea id="input-text-area" cols="30" rows="10" class="form-control"></textarea>
+                                </div>
+                                <button type="submit" class="btn my_btn-submit text-white fs-4">Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
