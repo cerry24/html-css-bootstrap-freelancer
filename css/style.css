@@ -20,6 +20,10 @@
     color: #2c3e50;
 }
 
+.ms_color-light {
+    color: #1abc9c;
+}
+
 header {
     background-color: #2c3e50;
 }
@@ -70,8 +74,12 @@ header {
 .ms_location,
 .ms_find-us,
 .ms_who-we-are {
-    height: 80px;
     background-color: goldenrod;
+}
+
+.my_border {
+    border: 2px white solid;
+    border-radius: 50%;
 }
 
 #ms_bottom-footer {
@@ -79,6 +87,5 @@ header {
 }
 
 .ms_copyright {
-    height: 45px;
     background-color: lightseagreen;
 }
